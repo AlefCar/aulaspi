@@ -8,7 +8,7 @@ public class IndexController {
 	@RequestMapping("/")
 	public String index() {
 		System.out.println("Chamou metodo index tlgd?");
-		return "index";	
+		return "redirect:/eventos";	
 
 	}
 }
