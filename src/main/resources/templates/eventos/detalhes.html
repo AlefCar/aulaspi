@@ -71,7 +71,7 @@
           			<td th:text="${c.id}">1</td>
           			<td th:text="${c.nome}">Alef Carvalho</td>
           			<td th:text="${c.rg}">123</td>
-          			<td><a th:href="@{/convidados/{id}/remover(id=${c.id})}"><i class="material-icons">delete</i></a></td>
+          			<td><a th:href="@{/eventos/deletarConvidado/{id}(id=${c.id})}"><i class="material-icons">delete</i></a></td>
           		</tr>
           	</tbody>
           </table>
